@@ -7,7 +7,9 @@ const array = [];
 let somma = 0;
 while (somma < 50) {
     let userNumbers = parseInt(prompt('Write a number'));
-    array.push (userNumbers);
-    somma += userNumbers;
+    if (!isNaN(userNumbers)) {
+        array.push (userNumbers);
+        somma += userNumbers;
+    }
 }
 console.log (array, 'la somma è:', somma);
