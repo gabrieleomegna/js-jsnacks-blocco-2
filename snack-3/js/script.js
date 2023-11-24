@@ -16,18 +16,18 @@ function sameLengthWord (wordOne, wordTwo) {
     return isSameLength;
 }
 
-
+// Se hanno la stessa lunghezza, stamparle entrambe 
 if (sameLengthWord (firstWord,secondWord)) {
     console.log ('The two word have same length:', firstWord, secondWord);
-} else if (firstWord.length > secondWord.length) {
+
+} else if (firstWord.length > secondWord.length) { //altrimenti stampare la più lunga delle due.
     console.log('Longer word is the first:', firstWord);
-} else {
+
+} else { 
     console.log('Longer word is the second:', secondWord);
 }
 
 
 
-// Se hanno la stessa lunghezza, stamparle entrambe 
 
 
-//altrimenti stampare la più lunga delle due.
