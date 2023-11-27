@@ -8,7 +8,13 @@ const wrapperElement = document.querySelector('div.wrapper');
 
 
 for (let i = 1; i <= userNumber; i++) {
-    let squareElement = document.createElement('div');
+    wrapperElement.appendChild(generateSquare());
+}
+
+
+
+function generateSquare () {
+    const squareElement = document.createElement('div');
     squareElement.classList.add('square-item');
-    wrapperElement.appendChild(squareElement);
+    return squareElement;
 }
