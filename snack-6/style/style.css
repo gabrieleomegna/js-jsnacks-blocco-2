@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+div.wrapper {
+    width: 700px;
+    height: 700px;
+    margin: 4rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.square-item {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
